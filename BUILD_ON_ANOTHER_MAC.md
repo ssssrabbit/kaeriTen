@@ -40,7 +40,7 @@ cd ios && xcodegen generate
 
 `KaeriTen.entitlements` に `com.apple.developer.game-center` を含む。実績機能を
 動かすには、Apple Developer PortalでApp IDにGame Center capabilityを有効化し、
-App Store Connect側で実績を登録する必要がある（`docs/GAME_CENTER_ACHIEVEMENTS.md` 参照）。
+App Store Connect側で実績を登録する必要がある。
 未設定でもアプリ自体は問題なくビルド・起動する（Game Centerサインインが失敗するだけ）。
 
 ## 5. 依存関係
