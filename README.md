@@ -66,10 +66,12 @@ xcodebuild -project KaeriTen.xcodeproj -scheme KaeriTen \
 
 `KaeriTen.entitlements` に `com.apple.developer.game-center` を含みます。実績機能を動かすには、Apple Developer PortalでApp IDにGame Center capabilityを有効化し、App Store Connect側で実績を登録する必要があります。未設定でもアプリ自体は問題なくビルド・起動します（Game Centerサインインが失敗するだけ）。
 
+### 依存関係
+
+外部パッケージ（SPM/CocoaPods）は一切使用していません。`libsqlite3.tbd` のみシステムSDKからリンクします（`project.yml` に定義済み）。
+
 ### 既知の制約・注意点
 
 - `Bundle.main` の subdirectory 指定でのリソース読み込みは効かないことがあります（xcodegenがResources配下のサブフォルダをバンドル直下にフラット配置するためです）。BGM/SE/画像読み込みコードは subdirectory 指定→指定なしのフォールバックを持っています。
 - SpriteView上に後乗せしたSwiftUIコンテンツは、環境によって再描画が反映されないことがあります。結果パネル・ライフゲージ等はすべてSpriteKitノードとして実装しています。
 - 返り点・ハイフンは元データベースの `mark_str`/`hyphen_str` を信用せず、`reading_order_str`（正解の読み順）から再構築した値のみを正としています。
-
-より詳しい手順（署名なしでの展開からの流れ）は [BUILD_ON_ANOTHER_MAC.md](BUILD_ON_ANOTHER_MAC.md) を参照してください。
