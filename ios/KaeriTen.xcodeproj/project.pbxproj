@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		055B2FCDFDD9BB8FACD66B0E /* PuzzleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474C0EF653EE8992E2154018 /* PuzzleStore.swift */; };
+		09357B715EB2CC6D1FD85186 /* bottle_water.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A8F1FD2953662251C120BA /* bottle_water.png */; };
+		09E4A2B8A7E706FF4E906429 /* StageClearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD96012C4EB04A0F20C550 /* StageClearView.swift */; };
+		0A50F02CDE310B13EAC9C0EC /* PuzzleSelectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884FB2BB385EE8CA6D9AB19C /* PuzzleSelectionTests.swift */; };
+		0CC931CB9CE1F5F450DE0F39 /* e2.png in Resources */ = {isa = PBXBuildFile; fileRef = D85F7696E2EDA9EAE748E189 /* e2.png */; };
+		0D3927B11517758D41A60D5A /* kanbun bunbun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B3D90612253373DB863AD /* kanbun bunbun.mp3 */; };
+		0D795E854F9659DB27B5A30A /* Jade Mirage_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 696B6FF386F27F474BCA3EFA /* Jade Mirage_4.mp3 */; };
+		111E44622EACAAD1CA53B371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2965C66BC09F375F853B4C63 /* Assets.xcassets */; };
+		19146B2D023E1560B02566ED /* kanbun wars_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D566EB0FB482F9918241F15E /* kanbun wars_1.mp3 */; };
+		1915BDBFE085F5E50B746A12 /* e6.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA6C7AD5ED39D584DD316AA /* e6.png */; };
+		2408ECC25855AF32191E9296 /* e1.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D24056A2CD305C0FEA3455 /* e1.png */; };
+		2840D154095A90F284D549AE /* e0.png in Resources */ = {isa = PBXBuildFile; fileRef = B7F45F9419CDA8DEA646592E /* e0.png */; };
+		28592B7D515EA23D16E204F4 /* AchievementManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAE00728B068601BCDA08A8 /* AchievementManager.swift */; };
+		2C07E30B180017321FE8E3ED /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 333A8B58D95DA18666DC1EDF /* libsqlite3.tbd */; };
+		3148235D00CA7F154EBC8038 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CEA436D3AF1E070E92BDA7 /* Progress.swift */; };
+		3750C96085F1B7BAC1221FC5 /* button_click_01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 871470FA3EC9566C3689A5BD /* button_click_01.mp3 */; };
+		382B529557AE356DDD7B27C2 /* kanbun bunbun_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87C02CE498E19BD2F394714 /* kanbun bunbun_2.mp3 */; };
+		38DA33F18C8BE04433C1C9B8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 333A8B58D95DA18666DC1EDF /* libsqlite3.tbd */; };
+		3E8F915BCBD472E2BF6C4E7F /* Jade Circuit Loop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E88226804C8CCB28BEEE484 /* Jade Circuit Loop.mp3 */; };
+		409765D29CF5CBB031481A01 /* e7_small.png in Resources */ = {isa = PBXBuildFile; fileRef = E45FC128AC8C28936396B4D5 /* e7_small.png */; };
+		4D5B1DD462F6EA08029FA576 /* e4.png in Resources */ = {isa = PBXBuildFile; fileRef = A71BB8AAC7133682536DF019 /* e4.png */; };
+		4F8B9CE3BBBB2D982B6A3C35 /* Jade Mirage_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9745525D964A915C83B7D9F0 /* Jade Mirage_6.mp3 */; };
+		504CBAED0C9347BEB42BB1DA /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C47F71FABF241950A4CFADC /* AudioEngine.swift */; };
+		50AE97E1A4F791AD616FF93C /* BGMTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F8208C032612F4ED76A4AD /* BGMTrack.swift */; };
+		55C9C077CE0F4AD5146BD827 /* ReadingOrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE22F84D057A3AA95A845D3 /* ReadingOrderTests.swift */; };
+		599096BF3700455D744F87CC /* TutorialCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57E04B5121D16E03FA57E78 /* TutorialCatalog.swift */; };
+		6429863C275BFEE94213CFC5 /* e7_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 4212AA9D90EBE4DF5B40B1D4 /* e7_big.png */; };
+		72972ACF8874D2C83023D63C /* Glass Currency.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE22B7B07091D9C03274535E /* Glass Currency.mp3 */; };
+		949581F50337D4A9B13D82DE /* OpeningScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B235F44DC41AF5D5FA86D6F /* OpeningScene.swift */; };
+		97DC8BDE8E21A3C9D79D98EA /* BoardScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5522E201AF0F9EEB9F0BD99B /* BoardScene.swift */; };
+		986235EA018665965843DD1E /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ADE3C59F5897B2BB66C55280 /* gameover.mp3 */; };
+		A73D2B34C81DD49F320A4A93 /* stageclear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65D5E1AC4C464D721A752955 /* stageclear.mp3 */; };
+		AEBC8DA37AF9E447932380CE /* tutorial.json in Resources */ = {isa = PBXBuildFile; fileRef = A08E1CAF91E3B5BC542F75F9 /* tutorial.json */; };
+		AEFBE05DD56AA4C2B888D017 /* PuzzleSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A84D6BFBD15D1DD862C08B /* PuzzleSelection.swift */; };
+		BA7F3325066B417C494A69CA /* Paper Thin Breath.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CFA8B625F1D5345A0BF170B6 /* Paper Thin Breath.mp3 */; };
+		BC538A782BC224F154D8A072 /* e3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0C2230D879E2024999137A /* e3.png */; };
+		BC7878D804FD12A2B4C7A3EB /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5E4BB543AD0269C378E61C /* GameState.swift */; };
+		C0CD51BBEE6E54ECA507EA09 /* miss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8916305E4F31F3DE348F9A7A /* miss.mp3 */; };
+		C159E5DB72273B6E90FFE0A6 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10B0DC769567F0C4F612C0 /* TitleView.swift */; };
+		C1F793A621C8E1190E84F4FC /* Clockwork Cacophony_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 280405B991DFB0356E711B49 /* Clockwork Cacophony_1.mp3 */; };
+		C3DCE9DA0A035B09F15C750F /* bottle_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 27105CAC1397E7E96CEB4587 /* bottle_empty.png */; };
+		C5E96858E54FD3173C7DC64C /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1791F8AF47B992548428D4 /* Puzzle.swift */; };
+		C732F547B40EAB8D5C91A1E5 /* StageSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF322A347F932DDA45E362A /* StageSelectView.swift */; };
+		CBA79E4049256FB8B866310D /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63E2CE6705E5B60CF49A54C /* GameOverView.swift */; };
+		CD8B09AC1701737280C77668 /* stageselect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A698F2708DCC69597E5A7553 /* stageselect.mp3 */; };
+		D512778EC67ACF6D863BA314 /* AchievementCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C8B3435A4557A1FB6058E /* AchievementCatalog.swift */; };
+		D88D0CECD57B8E2FB193FC30 /* game.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 29454DB98871FE455132141F /* game.sqlite */; };
+		DE1925B2C4BB6A40BD603BD6 /* ReadingOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5706678BD92E988784F73BB /* ReadingOrder.swift */; };
+		DFB553CBD0EB82E14B6B38C9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F3259AD40F15E28144C79 /* SettingsView.swift */; };
+		E1DA29CD0206F9B4CBC54C7C /* TutorialFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1DC3C1CBE707CEC1B29126 /* TutorialFlowView.swift */; };
+		E3207E095C2269EACC7B936D /* StageCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA86DC14DB204240D0BAF284 /* StageCatalog.swift */; };
+		E34CFF133EAE55FC501DBEAD /* GameFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222359315343F641D7C0AE28 /* GameFlowView.swift */; };
+		E7A394BC5678B666748C72F6 /* LifeSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE7675989AA8A068D9D67F /* LifeSystem.swift */; };
+		EA200DF089FA90C5C4681ED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF60D840C8B73BE7ABFCD4B9 /* LaunchScreen.storyboard */; };
+		EAAD771698239622B789A37B /* Clockwork Dumplings.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7ACDB28FD1A712A25BEF85E /* Clockwork Dumplings.mp3 */; };
+		F580748F3C89A322564C4E8B /* KaeriTenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34A83A91D23386DB03FC44B /* KaeriTenApp.swift */; };
+		F94D32D79061ACD6D8FCF01E /* pipeflow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9260328B1CAEAA455C71EAD5 /* pipeflow.mp3 */; };
+		FE746105ED63D9D4B9AC7756 /* e5.png in Resources */ = {isa = PBXBuildFile; fileRef = 142B0540E447E3EB6E3113B6 /* e5.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23A6BA6CF85D629282647F16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACB75703296795781FD32A46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D181D5F3F51141D3A2609DC7;
+			remoteInfo = KaeriTen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E5E4BB543AD0269C378E61C /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		142B0540E447E3EB6E3113B6 /* e5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = e5.png; sourceTree = "<group>"; };
+		187C8B3435A4557A1FB6058E /* AchievementCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementCatalog.swift; sourceTree = "<group>"; };
+		1C1B3D90612253373DB863AD /* kanbun bunbun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "kanbun bunbun.mp3"; sourceTree = "<group>"; };
+		1C47F71FABF241950A4CFADC /* AudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
+		1D374DA88395C88C7B5F2C7C /* KaeriTen.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = KaeriTen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		222359315343F641D7C0AE28 /* GameFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFlowView.swift; sourceTree = "<group>"; };
+		26A8F1FD2953662251C120BA /* bottle_water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottle_water.png; sourceTree = "<group>"; };
+		27105CAC1397E7E96CEB4587 /* bottle_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottle_empty.png; sourceTree = "<group>"; };
+		280405B991DFB0356E711B49 /* Clockwork Cacophony_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Clockwork Cacophony_1.mp3"; sourceTree = "<group>"; };
+		29454DB98871FE455132141F /* game.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = game.sqlite; sourceTree = "<group>"; };
+		2965C66BC09F375F853B4C63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		333A8B58D95DA18666DC1EDF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3BE22F84D057A3AA95A845D3 /* ReadingOrderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingOrderTests.swift; sourceTree = "<group>"; };
+		4212AA9D90EBE4DF5B40B1D4 /* e7_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = e7_big.png; sourceTree = "<group>"; };
+		474C0EF653EE8992E2154018 /* PuzzleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleStore.swift; sourceTree = "<group>"; };
+		5522E201AF0F9EEB9F0BD99B /* BoardScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardScene.swift; sourceTree = "<group>"; };
+		58CEA436D3AF1E070E92BDA7 /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		5A0C2230D879E2024999137A /* e3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = e3.png; sourceTree = "<group>"; };
+		65D5E1AC4C464D721A752955 /* stageclear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stageclear.mp3; sourceTree = "<group>"; };
+		696B6FF386F27F474BCA3EFA /* Jade Mirage_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jade Mirage_4.mp3"; sourceTree = "<group>"; };
+		6C16066C294FC71F675354FD /* KaeriTen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KaeriTen.entitlements; sourceTree = "<group>"; };
+		6CFE7675989AA8A068D9D67F /* LifeSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeSystem.swift; sourceTree = "<group>"; };
+		6F10B0DC769567F0C4F612C0 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		73F8208C032612F4ED76A4AD /* BGMTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGMTrack.swift; sourceTree = "<group>"; };
+		7E88226804C8CCB28BEEE484 /* Jade Circuit Loop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jade Circuit Loop.mp3"; sourceTree = "<group>"; };
+		871470FA3EC9566C3689A5BD /* button_click_01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button_click_01.mp3; sourceTree = "<group>"; };
+		884FB2BB385EE8CA6D9AB19C /* PuzzleSelectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleSelectionTests.swift; sourceTree = "<group>"; };
+		8916305E4F31F3DE348F9A7A /* miss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = miss.mp3; sourceTree = "<group>"; };
+		8B235F44DC41AF5D5FA86D6F /* OpeningScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningScene.swift; sourceTree = "<group>"; };
+		9260328B1CAEAA455C71EAD5 /* pipeflow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pipeflow.mp3; sourceTree = "<group>"; };
+		9745525D964A915C83B7D9F0 /* Jade Mirage_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jade Mirage_6.mp3"; sourceTree = "<group>"; };
+		9DAE00728B068601BCDA08A8 /* AchievementManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementManager.swift; sourceTree = "<group>"; };
+		A08E1CAF91E3B5BC542F75F9 /* tutorial.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tutorial.json; sourceTree = "<group>"; };
+		A4D24056A2CD305C0FEA3455 /* e1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = e1.png; sourceTree = "<group>"; };
+		A698F2708DCC69597E5A7553 /* stageselect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stageselect.mp3; sourceTree = "<group>"; };
+		A71BB8AAC7133682536DF019 /* e4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = e4.png; sourceTree = "<group>"; };
+		ADE3C59F5897B2BB66C55280 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
+		AFBD96012C4EB04A0F20C550 /* StageClearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageClearView.swift; sourceTree = "<group>"; };
+		B7F45F9419CDA8DEA646592E /* e0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = e0.png; sourceTree = "<group>"; };
+		BA1DC3C1CBE707CEC1B29126 /* TutorialFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialFlowView.swift; sourceTree = "<group>"; };
+		BE22B7B07091D9C03274535E /* Glass Currency.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Glass Currency.mp3"; sourceTree = "<group>"; };
+		BF6F3259AD40F15E28144C79 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C57E04B5121D16E03FA57E78 /* TutorialCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialCatalog.swift; sourceTree = "<group>"; };
+		C87C02CE498E19BD2F394714 /* kanbun bunbun_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "kanbun bunbun_2.mp3"; sourceTree = "<group>"; };
+		CA86DC14DB204240D0BAF284 /* StageCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageCatalog.swift; sourceTree = "<group>"; };
+		CC1791F8AF47B992548428D4 /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
+		CFA8B625F1D5345A0BF170B6 /* Paper Thin Breath.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Paper Thin Breath.mp3"; sourceTree = "<group>"; };
+		D566EB0FB482F9918241F15E /* kanbun wars_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "kanbun wars_1.mp3"; sourceTree = "<group>"; };
+		D63E2CE6705E5B60CF49A54C /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		D7ACDB28FD1A712A25BEF85E /* Clockwork Dumplings.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Clockwork Dumplings.mp3"; sourceTree = "<group>"; };
+		D85F7696E2EDA9EAE748E189 /* e2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = e2.png; sourceTree = "<group>"; };
+		E34A83A91D23386DB03FC44B /* KaeriTenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaeriTenApp.swift; sourceTree = "<group>"; };
+		E3A84D6BFBD15D1DD862C08B /* PuzzleSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleSelection.swift; sourceTree = "<group>"; };
+		E45FC128AC8C28936396B4D5 /* e7_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = e7_small.png; sourceTree = "<group>"; };
+		E5706678BD92E988784F73BB /* ReadingOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingOrder.swift; sourceTree = "<group>"; };
+		EAA6C7AD5ED39D584DD316AA /* e6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = e6.png; sourceTree = "<group>"; };
+		ECF322A347F932DDA45E362A /* StageSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageSelectView.swift; sourceTree = "<group>"; };
+		F12BBF99A32CC0E39A3ABB45 /* KaeriTenTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = KaeriTenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF60D840C8B73BE7ABFCD4B9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6478ED28B9A0EEBD48CCF1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DA33F18C8BE04433C1C9B8 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE4A52D483EFDFE97EA827A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C07E30B180017321FE8E3ED /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07029CCB9618D2FF5D5D082D /* KaeriTenTests */ = {
+			isa = PBXGroup;
+			children = (
+				884FB2BB385EE8CA6D9AB19C /* PuzzleSelectionTests.swift */,
+				3BE22F84D057A3AA95A845D3 /* ReadingOrderTests.swift */,
+			);
+			path = KaeriTenTests;
+			sourceTree = "<group>";
+		};
+		138AA91E6AF1FE82DE8974B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D374DA88395C88C7B5F2C7C /* KaeriTen.app */,
+				F12BBF99A32CC0E39A3ABB45 /* KaeriTenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EB0D5570F49F2BB6795ADA1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				474C0EF653EE8992E2154018 /* PuzzleStore.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		35D41AC6AFCD12FBE4C7340F /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				5522E201AF0F9EEB9F0BD99B /* BoardScene.swift */,
+				8B235F44DC41AF5D5FA86D6F /* OpeningScene.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		396F48DA5B40A05E7163036D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29454DB98871FE455132141F /* game.sqlite */,
+				A08E1CAF91E3B5BC542F75F9 /* tutorial.json */,
+				F34F7BB45FACDAA103CFD55D /* bgm */,
+				64E7AAF7D2DDF8CCB2D0908B /* images */,
+				44E864B140D00CB276D035BE /* opening */,
+				44761E7B28A85775BDBB04C0 /* se */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		44761E7B28A85775BDBB04C0 /* se */ = {
+			isa = PBXGroup;
+			children = (
+				871470FA3EC9566C3689A5BD /* button_click_01.mp3 */,
+				ADE3C59F5897B2BB66C55280 /* gameover.mp3 */,
+				8916305E4F31F3DE348F9A7A /* miss.mp3 */,
+				9260328B1CAEAA455C71EAD5 /* pipeflow.mp3 */,
+				65D5E1AC4C464D721A752955 /* stageclear.mp3 */,
+			);
+			path = se;
+			sourceTree = "<group>";
+		};
+		44E864B140D00CB276D035BE /* opening */ = {
+			isa = PBXGroup;
+			children = (
+				B7F45F9419CDA8DEA646592E /* e0.png */,
+				A4D24056A2CD305C0FEA3455 /* e1.png */,
+				D85F7696E2EDA9EAE748E189 /* e2.png */,
+				5A0C2230D879E2024999137A /* e3.png */,
+				A71BB8AAC7133682536DF019 /* e4.png */,
+				142B0540E447E3EB6E3113B6 /* e5.png */,
+				EAA6C7AD5ED39D584DD316AA /* e6.png */,
+				4212AA9D90EBE4DF5B40B1D4 /* e7_big.png */,
+				E45FC128AC8C28936396B4D5 /* e7_small.png */,
+			);
+			path = opening;
+			sourceTree = "<group>";
+		};
+		48E08B75752E76211670AAD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				333A8B58D95DA18666DC1EDF /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64E7AAF7D2DDF8CCB2D0908B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				27105CAC1397E7E96CEB4587 /* bottle_empty.png */,
+				26A8F1FD2953662251C120BA /* bottle_water.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		7219E3EFA65D77FD14238243 = {
+			isa = PBXGroup;
+			children = (
+				E00791D0C0309A1277163094 /* KaeriTen */,
+				07029CCB9618D2FF5D5D082D /* KaeriTenTests */,
+				48E08B75752E76211670AAD3 /* Frameworks */,
+				138AA91E6AF1FE82DE8974B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		918D6CFCA1492DD988DF7E46 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				6CFE7675989AA8A068D9D67F /* LifeSystem.swift */,
+				CC1791F8AF47B992548428D4 /* Puzzle.swift */,
+				E3A84D6BFBD15D1DD862C08B /* PuzzleSelection.swift */,
+				E5706678BD92E988784F73BB /* ReadingOrder.swift */,
+				CA86DC14DB204240D0BAF284 /* StageCatalog.swift */,
+				C57E04B5121D16E03FA57E78 /* TutorialCatalog.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		CF9B103183BDDDA0334D834B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				222359315343F641D7C0AE28 /* GameFlowView.swift */,
+				D63E2CE6705E5B60CF49A54C /* GameOverView.swift */,
+				E34A83A91D23386DB03FC44B /* KaeriTenApp.swift */,
+				FF60D840C8B73BE7ABFCD4B9 /* LaunchScreen.storyboard */,
+				BF6F3259AD40F15E28144C79 /* SettingsView.swift */,
+				AFBD96012C4EB04A0F20C550 /* StageClearView.swift */,
+				ECF322A347F932DDA45E362A /* StageSelectView.swift */,
+				6F10B0DC769567F0C4F612C0 /* TitleView.swift */,
+				BA1DC3C1CBE707CEC1B29126 /* TutorialFlowView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D453CB9ADAE3E0EBC635D934 /* GameCenter */ = {
+			isa = PBXGroup;
+			children = (
+				187C8B3435A4557A1FB6058E /* AchievementCatalog.swift */,
+				9DAE00728B068601BCDA08A8 /* AchievementManager.swift */,
+			);
+			path = GameCenter;
+			sourceTree = "<group>";
+		};
+		D8C3DD3CE0282EE0730C287C /* State */ = {
+			isa = PBXGroup;
+			children = (
+				0E5E4BB543AD0269C378E61C /* GameState.swift */,
+				58CEA436D3AF1E070E92BDA7 /* Progress.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		E00791D0C0309A1277163094 /* KaeriTen */ = {
+			isa = PBXGroup;
+			children = (
+				2965C66BC09F375F853B4C63 /* Assets.xcassets */,
+				6C16066C294FC71F675354FD /* KaeriTen.entitlements */,
+				CF9B103183BDDDA0334D834B /* App */,
+				EC293E684145FBA8EFDC9F1A /* Audio */,
+				1EB0D5570F49F2BB6795ADA1 /* Data */,
+				918D6CFCA1492DD988DF7E46 /* Domain */,
+				D453CB9ADAE3E0EBC635D934 /* GameCenter */,
+				396F48DA5B40A05E7163036D /* Resources */,
+				35D41AC6AFCD12FBE4C7340F /* Scene */,
+				D8C3DD3CE0282EE0730C287C /* State */,
+			);
+			path = KaeriTen;
+			sourceTree = "<group>";
+		};
+		EC293E684145FBA8EFDC9F1A /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				1C47F71FABF241950A4CFADC /* AudioEngine.swift */,
+				73F8208C032612F4ED76A4AD /* BGMTrack.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		F34F7BB45FACDAA103CFD55D /* bgm */ = {
+			isa = PBXGroup;
+			children = (
+				280405B991DFB0356E711B49 /* Clockwork Cacophony_1.mp3 */,
+				D7ACDB28FD1A712A25BEF85E /* Clockwork Dumplings.mp3 */,
+				BE22B7B07091D9C03274535E /* Glass Currency.mp3 */,
+				7E88226804C8CCB28BEEE484 /* Jade Circuit Loop.mp3 */,
+				696B6FF386F27F474BCA3EFA /* Jade Mirage_4.mp3 */,
+				9745525D964A915C83B7D9F0 /* Jade Mirage_6.mp3 */,
+				C87C02CE498E19BD2F394714 /* kanbun bunbun_2.mp3 */,
+				1C1B3D90612253373DB863AD /* kanbun bunbun.mp3 */,
+				D566EB0FB482F9918241F15E /* kanbun wars_1.mp3 */,
+				CFA8B625F1D5345A0BF170B6 /* Paper Thin Breath.mp3 */,
+				A698F2708DCC69597E5A7553 /* stageselect.mp3 */,
+			);
+			path = bgm;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98DAB62867F04782CB00B8E9 /* KaeriTenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8CFE3FF642D2068A29185D2 /* Build configuration list for PBXNativeTarget "KaeriTenTests" */;
+			buildPhases = (
+				931F8FFB5A870EAC86046ED7 /* Sources */,
+				FAE4A52D483EFDFE97EA827A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				977F87CEE7C4D9DB064FAC84 /* PBXTargetDependency */,
+			);
+			name = KaeriTenTests;
+			packageProductDependencies = (
+			);
+			productName = KaeriTenTests;
+			productReference = F12BBF99A32CC0E39A3ABB45 /* KaeriTenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D181D5F3F51141D3A2609DC7 /* KaeriTen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D8321497A4B882BA36255A4 /* Build configuration list for PBXNativeTarget "KaeriTen" */;
+			buildPhases = (
+				3DF299A59481793B76707F60 /* Sources */,
+				EE8386A629ACFD27DA23789A /* Resources */,
+				C6478ED28B9A0EEBD48CCF1B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaeriTen;
+			packageProductDependencies = (
+			);
+			productName = KaeriTen;
+			productReference = 1D374DA88395C88C7B5F2C7C /* KaeriTen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACB75703296795781FD32A46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					98DAB62867F04782CB00B8E9 = {
+						DevelopmentTeam = "";
+					};
+					D181D5F3F51141D3A2609DC7 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = ECB65E1A031921D1E342BFFF /* Build configuration list for PBXProject "KaeriTen" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7219E3EFA65D77FD14238243;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 138AA91E6AF1FE82DE8974B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D181D5F3F51141D3A2609DC7 /* KaeriTen */,
+				98DAB62867F04782CB00B8E9 /* KaeriTenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE8386A629ACFD27DA23789A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111E44622EACAAD1CA53B371 /* Assets.xcassets in Resources */,
+				C1F793A621C8E1190E84F4FC /* Clockwork Cacophony_1.mp3 in Resources */,
+				EAAD771698239622B789A37B /* Clockwork Dumplings.mp3 in Resources */,
+				72972ACF8874D2C83023D63C /* Glass Currency.mp3 in Resources */,
+				3E8F915BCBD472E2BF6C4E7F /* Jade Circuit Loop.mp3 in Resources */,
+				0D795E854F9659DB27B5A30A /* Jade Mirage_4.mp3 in Resources */,
+				4F8B9CE3BBBB2D982B6A3C35 /* Jade Mirage_6.mp3 in Resources */,
+				EA200DF089FA90C5C4681ED0 /* LaunchScreen.storyboard in Resources */,
+				BA7F3325066B417C494A69CA /* Paper Thin Breath.mp3 in Resources */,
+				C3DCE9DA0A035B09F15C750F /* bottle_empty.png in Resources */,
+				09357B715EB2CC6D1FD85186 /* bottle_water.png in Resources */,
+				3750C96085F1B7BAC1221FC5 /* button_click_01.mp3 in Resources */,
+				2840D154095A90F284D549AE /* e0.png in Resources */,
+				2408ECC25855AF32191E9296 /* e1.png in Resources */,
+				0CC931CB9CE1F5F450DE0F39 /* e2.png in Resources */,
+				BC538A782BC224F154D8A072 /* e3.png in Resources */,
+				4D5B1DD462F6EA08029FA576 /* e4.png in Resources */,
+				FE746105ED63D9D4B9AC7756 /* e5.png in Resources */,
+				1915BDBFE085F5E50B746A12 /* e6.png in Resources */,
+				6429863C275BFEE94213CFC5 /* e7_big.png in Resources */,
+				409765D29CF5CBB031481A01 /* e7_small.png in Resources */,
+				D88D0CECD57B8E2FB193FC30 /* game.sqlite in Resources */,
+				986235EA018665965843DD1E /* gameover.mp3 in Resources */,
+				0D3927B11517758D41A60D5A /* kanbun bunbun.mp3 in Resources */,
+				382B529557AE356DDD7B27C2 /* kanbun bunbun_2.mp3 in Resources */,
+				19146B2D023E1560B02566ED /* kanbun wars_1.mp3 in Resources */,
+				C0CD51BBEE6E54ECA507EA09 /* miss.mp3 in Resources */,
+				F94D32D79061ACD6D8FCF01E /* pipeflow.mp3 in Resources */,
+				A73D2B34C81DD49F320A4A93 /* stageclear.mp3 in Resources */,
+				CD8B09AC1701737280C77668 /* stageselect.mp3 in Resources */,
+				AEBC8DA37AF9E447932380CE /* tutorial.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DF299A59481793B76707F60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D512778EC67ACF6D863BA314 /* AchievementCatalog.swift in Sources */,
+				28592B7D515EA23D16E204F4 /* AchievementManager.swift in Sources */,
+				504CBAED0C9347BEB42BB1DA /* AudioEngine.swift in Sources */,
+				50AE97E1A4F791AD616FF93C /* BGMTrack.swift in Sources */,
+				97DC8BDE8E21A3C9D79D98EA /* BoardScene.swift in Sources */,
+				E34CFF133EAE55FC501DBEAD /* GameFlowView.swift in Sources */,
+				CBA79E4049256FB8B866310D /* GameOverView.swift in Sources */,
+				BC7878D804FD12A2B4C7A3EB /* GameState.swift in Sources */,
+				F580748F3C89A322564C4E8B /* KaeriTenApp.swift in Sources */,
+				E7A394BC5678B666748C72F6 /* LifeSystem.swift in Sources */,
+				949581F50337D4A9B13D82DE /* OpeningScene.swift in Sources */,
+				3148235D00CA7F154EBC8038 /* Progress.swift in Sources */,
+				C5E96858E54FD3173C7DC64C /* Puzzle.swift in Sources */,
+				AEFBE05DD56AA4C2B888D017 /* PuzzleSelection.swift in Sources */,
+				055B2FCDFDD9BB8FACD66B0E /* PuzzleStore.swift in Sources */,
+				DE1925B2C4BB6A40BD603BD6 /* ReadingOrder.swift in Sources */,
+				DFB553CBD0EB82E14B6B38C9 /* SettingsView.swift in Sources */,
+				E3207E095C2269EACC7B936D /* StageCatalog.swift in Sources */,
+				09E4A2B8A7E706FF4E906429 /* StageClearView.swift in Sources */,
+				C732F547B40EAB8D5C91A1E5 /* StageSelectView.swift in Sources */,
+				C159E5DB72273B6E90FFE0A6 /* TitleView.swift in Sources */,
+				599096BF3700455D744F87CC /* TutorialCatalog.swift in Sources */,
+				E1DA29CD0206F9B4CBC54C7C /* TutorialFlowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931F8FFB5A870EAC86046ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A50F02CDE310B13EAC9C0EC /* PuzzleSelectionTests.swift in Sources */,
+				55C9C077CE0F4AD5146BD827 /* ReadingOrderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		977F87CEE7C4D9DB064FAC84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D181D5F3F51141D3A2609DC7 /* KaeriTen */;
+			targetProxy = 23A6BA6CF85D629282647F16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		60D53ED678B5531D4A4EC743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		65AD52F83995298DD559E043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KaeriTen/KaeriTen.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = kaeriTen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations~ipad" = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.opqrco.kaeriten;
+				PRODUCT_NAME = KaeriTen;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77D0CA973946635D33CFC864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7C2022AADEF03C095CB90E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.opqrco.kaeriten.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaeriTen.app/KaeriTen";
+			};
+			name = Release;
+		};
+		827BF92FE404A957EC3C2A00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.opqrco.kaeriten.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaeriTen.app/KaeriTen";
+			};
+			name = Debug;
+		};
+		B5FE7495328902C39A268DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KaeriTen/KaeriTen.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = kaeriTen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations~ipad" = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.opqrco.kaeriten;
+				PRODUCT_NAME = KaeriTen;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8321497A4B882BA36255A4 /* Build configuration list for PBXNativeTarget "KaeriTen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AD52F83995298DD559E043 /* Debug */,
+				B5FE7495328902C39A268DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C8CFE3FF642D2068A29185D2 /* Build configuration list for PBXNativeTarget "KaeriTenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827BF92FE404A957EC3C2A00 /* Debug */,
+				7C2022AADEF03C095CB90E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ECB65E1A031921D1E342BFFF /* Build configuration list for PBXProject "KaeriTen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D0CA973946635D33CFC864 /* Debug */,
+				60D53ED678B5531D4A4EC743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACB75703296795781FD32A46 /* Project object */;
+}
