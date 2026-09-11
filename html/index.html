@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>kaeriTen（かえりてん）― 漢文・返り点パズルゲーム</title>
+<meta name="description" content="漢文の返り点（レ点・一二三四点）を指先で置いて読み順を再現するパズルゲーム「kaeriTen」。11ステージ・タイムアタック要素つき。">
+<link rel="icon" href="assets/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="brand">
+      <img src="assets/icon.png" alt="">
+      kaeriTen
+    </div>
+    <nav class="site-nav">
+      <a href="#screenshots">スクリーンショット</a>
+      <a href="#features">特徴</a>
+      <a href="#how-to-play">遊び方</a>
+      <a href="privacy.html">プライバシーポリシー</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="wrap">
+      <img class="hero-icon" src="assets/icon.png" alt="kaeriTen アプリアイコン">
+      <h1>kaeriTen</h1>
+      <p class="tagline">漢文を、指先で読み解く。返り点パズルゲーム。</p>
+      <p class="sub">
+        レ点・一二三四点・ハイフンを漢字の下に置いて、正しい読み順のパイプをつなげよう。
+        全11ステージ、タイムアタックとライフ制でゲームらしい緊張感も。
+        解けたら、その文の書き下し文と現代語訳・イラストが見られます。
+      </p>
+      <div class="cta-row">
+        <span class="btn btn-primary disabled" aria-disabled="true">App Store 近日公開</span>
+        <a class="btn btn-ghost" href="#how-to-play">遊び方を見る</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="screenshots">
+    <div class="wrap">
+      <h2>Screenshots</h2>
+      <p class="section-lede">実機シミュレータで撮影した実際の画面です。</p>
+      <div class="gallery">
+        <figure>
+          <img src="assets/screenshot-stages.png" alt="ステージ選択画面。2列グリッドで11ステージが並ぶ">
+          <figcaption>ステージ選択 ― クリア済みステージには緑のチェックがつく</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/screenshot-gameplay.png" alt="盤面画面。黄色いグリッド・漢字・返り点バッジ・水色のパイプが表示されている">
+          <figcaption>プレイ中の盤面 ― 返り点を置くと水色のパイプがつながる</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/screenshot-clear.png" alt="クリア画面。解いた漢文のイラスト・書き下し文・フレーバーテキストが表示されている">
+          <figcaption>クリア後 ― イラストと書き下し文、フレーバーテキストがごほうびに表示される</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="wrap">
+      <h2>特徴</h2>
+      <p class="section-lede">読み下しの仕組みを、パズルとして体で覚える。</p>
+      <div class="features">
+
+        <div class="feature-card">
+          <div class="glyph">レ</div>
+          <h3>返り点を置いて読み順を再現</h3>
+          <p>レ点・一二三四点・ハイフンを漢字の下のスロットに置くと、その配置から読み順が水色のパイプとして描かれます。正解の読み順（マゼンタの線）と重なればクリア。</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="glyph">11</div>
+          <h3>全11ステージ</h3>
+          <p>3〜6文字の短文から始まり、難易度と文字数を組み合わせた10ステージに加え、ヒント表示なしの総合力ステージ「STAGE4」も用意。</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="glyph">⏱</div>
+          <h3>制限時間とライフ制</h3>
+          <p>1問30秒の制限時間つき。タイムアウトするとライフが減り、正解すると少し回復。ライフが尽きるとゲームオーバー、ステージクリア時は残りライフに応じた評価（PERFECT〜NOT BAD）がつきます。</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="glyph">文</div>
+          <h3>解いたら意味がわかる</h3>
+          <p>クリアすると、その文の書き下し文と現代語訳、イラストが表示されます。漢文の内容そのものを味わえるごほうび演出です。</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="glyph">♪</div>
+          <h3>ステージごとのBGM</h3>
+          <p>難易度ごとに異なるBGMが流れ、ステージ切り替え時はクロスフェード。操作音・クリア音などの効果音つきで、設定画面から音量を個別に調整できます。</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="glyph">再</div>
+          <h3>何度でも新しい問題</h3>
+          <p>出題は元データベースの数千問からランダムに選ばれ、直近に遊んだ問題は優先的に避けられるので、同じステージを繰り返し遊んでも飽きにくい仕組みです。</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="how-to-play">
+    <div class="wrap">
+      <h2>遊び方</h2>
+      <p class="section-lede">4ステップだけ。漢文の知識がなくても、遊びながら覚えられます。</p>
+      <div class="steps">
+        <div class="step">
+          <div class="num"></div>
+          <p><strong>漢字の下の丸（スロット）をタップ</strong>すると、返り点の選択メニューが出てきます。</p>
+        </div>
+        <div class="step">
+          <div class="num"></div>
+          <p><strong>「レ」「一」「二」…から選ぶ</strong>と、その返り点がスロットに置かれます。指を離す場所で選択が確定します。</p>
+        </div>
+        <div class="step">
+          <div class="num"></div>
+          <p><strong>水色のパイプの形をマゼンタの線に合わせる</strong>のが目標です。パイプは今の返り点配置から計算された実際の読み順を表しています。</p>
+        </div>
+        <div class="step">
+          <div class="num"></div>
+          <p><strong>制限時間内に一致させればクリア。</strong>書き下し文と現代語訳が表示され、次の問題に進みます。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="links">
+      <a href="privacy.html">プライバシーポリシー</a>
+    </div>
+    <p>kaeriTen</p>
+  </div>
+</footer>
+
+</body>
+</html>
